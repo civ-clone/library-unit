@@ -1,6 +1,6 @@
 {
   "name": "@civ-clone/library-unit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": "git@github.com:civ-clone/library-unit.git",
   "keywords": [
     "typescript",
@@ -36,6 +36,7 @@
     "@civ-clone/base-unit-action-embark": "^0.1.0",
     "@civ-clone/base-unit-action-fortify": "^0.1.0",
     "@civ-clone/base-unit-action-found-city": "^0.1.0",
+    "@civ-clone/base-unit-action-goto": "^0.1.0",
     "@civ-clone/base-unit-action-move": "^0.1.0",
     "@civ-clone/base-unit-action-no-orders": "^0.1.0",
     "@civ-clone/base-unit-action-pillage": "^0.1.0",

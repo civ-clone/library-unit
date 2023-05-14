@@ -17,6 +17,7 @@ export { Move } from './Actions/Move';
 export { NoOrders } from './Actions/NoOrders';
 export { Pillage } from './Actions/Pillage';
 export { PlantForest } from './Actions/PlantForest';
+export { SetHomeCity } from './Actions/SetHomeCity';
 export { Sleep } from './Actions/Sleep';
 export { SneakAttack } from './Actions/SneakAttack';
 export { SneakCaptureCity } from './Actions/SneakCaptureCity';

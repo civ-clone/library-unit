@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Unload = exports.SneakCaptureCity = exports.SneakAttack = exports.Sleep = exports.PlantForest = exports.Pillage = exports.NoOrders = exports.Move = exports.GoTo = exports.FoundCity = exports.Fortify = exports.Embark = exports.Disembark = exports.Disband = exports.ClearSwamp = exports.ClearJungle = exports.ClearForest = exports.CaptureCity = exports.BuildRoad = exports.BuildRailroad = exports.BuildMine = exports.BuildIrrigation = exports.Attack = void 0;
+exports.Unload = exports.SneakCaptureCity = exports.SneakAttack = exports.Sleep = exports.SetHomeCity = exports.PlantForest = exports.Pillage = exports.NoOrders = exports.Move = exports.GoTo = exports.FoundCity = exports.Fortify = exports.Embark = exports.Disembark = exports.Disband = exports.ClearSwamp = exports.ClearJungle = exports.ClearForest = exports.CaptureCity = exports.BuildRoad = exports.BuildRailroad = exports.BuildMine = exports.BuildIrrigation = exports.Attack = void 0;
 var Attack_1 = require("./Actions/Attack");
 Object.defineProperty(exports, "Attack", { enumerable: true, get: function () { return Attack_1.Attack; } });
 var BuildIrrigation_1 = require("./Actions/BuildIrrigation");
@@ -39,6 +39,8 @@ var Pillage_1 = require("./Actions/Pillage");
 Object.defineProperty(exports, "Pillage", { enumerable: true, get: function () { return Pillage_1.Pillage; } });
 var PlantForest_1 = require("./Actions/PlantForest");
 Object.defineProperty(exports, "PlantForest", { enumerable: true, get: function () { return PlantForest_1.PlantForest; } });
+var SetHomeCity_1 = require("./Actions/SetHomeCity");
+Object.defineProperty(exports, "SetHomeCity", { enumerable: true, get: function () { return SetHomeCity_1.SetHomeCity; } });
 var Sleep_1 = require("./Actions/Sleep");
 Object.defineProperty(exports, "Sleep", { enumerable: true, get: function () { return Sleep_1.Sleep; } });
 var SneakAttack_1 = require("./Actions/SneakAttack");

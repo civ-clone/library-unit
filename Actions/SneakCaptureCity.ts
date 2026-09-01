@@ -9,7 +9,7 @@ import Tile from '@civ-clone/core-world/Tile';
 import Unit from '@civ-clone/core-unit/Unit';
 
 export class SneakCaptureCity extends CaptureCity {
-  #enemy: Player;
+  private _enemy: Player;
 
   constructor(
     from: Tile,
@@ -21,13 +21,13 @@ export class SneakCaptureCity extends CaptureCity {
   ) {
     super(from, to, unit, city, ruleRegistry);
 
-    this.#enemy = enemy;
+    this._enemy = enemy;
 
     this.addKey('enemy');
   }
 
   enemy(): Player {
-    return this.#enemy;
+    return this._enemy;
   }
 }
 

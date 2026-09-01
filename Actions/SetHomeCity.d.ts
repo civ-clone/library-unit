@@ -4,7 +4,7 @@ import Action from '@civ-clone/core-unit/Action';
 import Tile from '@civ-clone/core-world/Tile';
 import Unit from '@civ-clone/core-unit/Unit';
 export declare class SetHomeCity extends Action {
-  #private;
+  private _cityRegistry;
   constructor(
     from: Tile,
     to: Tile,

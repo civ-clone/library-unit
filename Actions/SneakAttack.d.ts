@@ -5,7 +5,7 @@ import Player from '@civ-clone/core-player/Player';
 import Tile from '@civ-clone/core-world/Tile';
 import Unit from '@civ-clone/core-unit/Unit';
 export declare class SneakAttack extends Attack {
-  #private;
+  private _enemy;
   constructor(
     from: Tile,
     to: Tile,

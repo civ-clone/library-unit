@@ -12,7 +12,7 @@ import Tile from '@civ-clone/core-world/Tile';
 import Unit from '@civ-clone/core-unit/Unit';
 
 export class SneakAttack extends Attack {
-  #enemy: Player;
+  private _enemy: Player;
 
   constructor(
     from: Tile,
@@ -24,13 +24,13 @@ export class SneakAttack extends Attack {
   ) {
     super(from, to, unit, ruleRegistry, unitRegistry);
 
-    this.#enemy = enemy;
+    this._enemy = enemy;
 
     this.addKey('enemy');
   }
 
   enemy(): Player {
-    return this.#enemy;
+    return this._enemy;
   }
 }
 

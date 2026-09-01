@@ -11,7 +11,7 @@ import Tile from '@civ-clone/core-world/Tile';
 import Unit from '@civ-clone/core-unit/Unit';
 
 export class SetHomeCity extends Action {
-  #cityRegistry: CityRegistry;
+  private _cityRegistry: CityRegistry;
 
   constructor(
     from: Tile,
@@ -22,10 +22,10 @@ export class SetHomeCity extends Action {
   ) {
     super(from, to, unit, ruleRegistry);
 
-    this.#cityRegistry = cityRegistry;
+    this._cityRegistry = cityRegistry;
   }
   perform(...args: any[]): void {
-    const targetCity = this.#cityRegistry.getByTile(this.from());
+    const targetCity = this._cityRegistry.getByTile(this.from());
 
     if (!targetCity) {
       return;

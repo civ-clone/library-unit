@@ -13,6 +13,7 @@ export { Embark } from './Actions/Embark';
 export { Fortify } from './Actions/Fortify';
 export { FoundCity } from './Actions/FoundCity';
 export { GoTo } from './Actions/GoTo';
+export { JoinCity } from './Actions/JoinCity';
 export { Move } from './Actions/Move';
 export { NoOrders } from './Actions/NoOrders';
 export { Pillage } from './Actions/Pillage';

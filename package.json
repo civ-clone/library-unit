@@ -1,6 +1,6 @@
 {
   "name": "@civ-clone/library-unit",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "repository": "git@github.com:civ-clone/library-unit.git",
   "keywords": [
     "typescript",
@@ -40,9 +40,11 @@
     "@civ-clone/base-unit-action-disband": "^0.1.0",
     "@civ-clone/base-unit-action-disembark": "^0.1.0",
     "@civ-clone/base-unit-action-embark": "^0.1.0",
+    "@civ-clone/base-unit-action-establish-trade-route": "^0.1.0",
     "@civ-clone/base-unit-action-fortify": "^0.1.0",
     "@civ-clone/base-unit-action-found-city": "^0.1.0",
     "@civ-clone/base-unit-action-goto": "^0.1.0",
+    "@civ-clone/base-unit-action-help-build-wonder": "^0.1.0",
     "@civ-clone/base-unit-action-join-city": "^0.1.0",
     "@civ-clone/base-unit-action-move": "^0.1.0",
     "@civ-clone/base-unit-action-no-orders": "^0.1.0",

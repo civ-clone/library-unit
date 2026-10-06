@@ -80,6 +80,7 @@
     "@civ-clone/base-unit-transport": "^0.1.0",
     "@civ-clone/base-unit-trireme": "^0.1.0",
     "@civ-clone/base-unit-type-air": "^0.1.0",
+    "@civ-clone/base-unit-type-diplomatic": "^0.1.0",
     "@civ-clone/base-unit-type-fortifiable": "^0.1.0",
     "@civ-clone/base-unit-type-land": "^0.1.0",
     "@civ-clone/base-unit-type-naval": "^0.1.0",

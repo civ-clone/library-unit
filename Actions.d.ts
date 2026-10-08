@@ -1,4 +1,5 @@
 export { Attack } from './Actions/Attack';
+export { Automate } from './Actions/Automate';
 export { BribeUnit } from './Actions/BribeUnit';
 export { BuildIrrigation } from './Actions/BuildIrrigation';
 export { BuildMine } from './Actions/BuildMine';
@@ -13,6 +14,7 @@ export { Disembark } from './Actions/Disembark';
 export { Embark } from './Actions/Embark';
 export { EstablishEmbassy } from './Actions/EstablishEmbassy';
 export { EstablishTradeRoute } from './Actions/EstablishTradeRoute';
+export { Explore } from './Actions/Explore';
 export { Fortify } from './Actions/Fortify';
 export { FoundCity } from './Actions/FoundCity';
 export { GoTo } from './Actions/GoTo';

@@ -6,6 +6,7 @@ export { BuildMine } from './Actions/BuildMine';
 export { BuildRailroad } from './Actions/BuildRailroad';
 export { BuildRoad } from './Actions/BuildRoad';
 export { CaptureCity } from './Actions/CaptureCity';
+export { CleanPollution } from './Actions/CleanPollution';
 export { ClearForest } from './Actions/ClearForest';
 export { ClearJungle } from './Actions/ClearJungle';
 export { ClearSwamp } from './Actions/ClearSwamp';

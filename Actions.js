@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Unload = exports.SubvertCity = exports.StealTechnology = exports.SneakStealTechnology = exports.SneakNuclearAttack = exports.SneakInciteRevolt = exports.SneakCaptureCity = exports.SneakAttack = exports.Sleep = exports.SetHomeCity = exports.PlantForest = exports.Pillage = exports.NuclearAttack = exports.NoOrders = exports.Move = exports.MeetWithKing = exports.JoinCity = exports.InvestigateCity = exports.IndustrialSabotage = exports.InciteRevolt = exports.HelpBuildWonder = exports.GoTo = exports.FoundCity = exports.Fortify = exports.Explore = exports.EstablishTradeRoute = exports.EstablishEmbassy = exports.Embark = exports.Disembark = exports.Disband = exports.ClearSwamp = exports.ClearJungle = exports.ClearForest = exports.CaptureCity = exports.BuildRoad = exports.BuildRailroad = exports.BuildMine = exports.BuildIrrigation = exports.BribeUnit = exports.Automate = exports.Attack = void 0;
+exports.Unload = exports.SubvertCity = exports.StealTechnology = exports.SneakStealTechnology = exports.SneakNuclearAttack = exports.SneakInciteRevolt = exports.SneakCaptureCity = exports.SneakAttack = exports.Sleep = exports.SetHomeCity = exports.PlantForest = exports.Pillage = exports.NuclearAttack = exports.NoOrders = exports.Move = exports.MeetWithKing = exports.JoinCity = exports.InvestigateCity = exports.IndustrialSabotage = exports.InciteRevolt = exports.HelpBuildWonder = exports.GoTo = exports.FoundCity = exports.Fortify = exports.Explore = exports.EstablishTradeRoute = exports.EstablishEmbassy = exports.Embark = exports.Disembark = exports.Disband = exports.ClearSwamp = exports.ClearJungle = exports.ClearForest = exports.CleanPollution = exports.CaptureCity = exports.BuildRoad = exports.BuildRailroad = exports.BuildMine = exports.BuildIrrigation = exports.BribeUnit = exports.Automate = exports.Attack = void 0;
 var Attack_1 = require("./Actions/Attack");
 Object.defineProperty(exports, "Attack", { enumerable: true, get: function () { return Attack_1.Attack; } });
 var Automate_1 = require("./Actions/Automate");
@@ -17,6 +17,8 @@ var BuildRoad_1 = require("./Actions/BuildRoad");
 Object.defineProperty(exports, "BuildRoad", { enumerable: true, get: function () { return BuildRoad_1.BuildRoad; } });
 var CaptureCity_1 = require("./Actions/CaptureCity");
 Object.defineProperty(exports, "CaptureCity", { enumerable: true, get: function () { return CaptureCity_1.CaptureCity; } });
+var CleanPollution_1 = require("./Actions/CleanPollution");
+Object.defineProperty(exports, "CleanPollution", { enumerable: true, get: function () { return CleanPollution_1.CleanPollution; } });
 var ClearForest_1 = require("./Actions/ClearForest");
 Object.defineProperty(exports, "ClearForest", { enumerable: true, get: function () { return ClearForest_1.ClearForest; } });
 var ClearJungle_1 = require("./Actions/ClearJungle");

@@ -30,6 +30,8 @@ export { NoOrders } from './Actions/NoOrders';
 export { NuclearAttack } from './Actions/NuclearAttack';
 export { Pillage } from './Actions/Pillage';
 export { PlantForest } from './Actions/PlantForest';
+export { RailroadTo } from './Actions/RailroadTo';
+export { RoadTo } from './Actions/RoadTo';
 export { SetHomeCity } from './Actions/SetHomeCity';
 export { Sleep } from './Actions/Sleep';
 export { SneakAttack } from './Actions/SneakAttack';

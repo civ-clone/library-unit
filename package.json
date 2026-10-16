@@ -35,6 +35,7 @@
     "@civ-clone/base-unit-action-build-mine": "^0.1.0",
     "@civ-clone/base-unit-action-build-railroad": "^0.1.0",
     "@civ-clone/base-unit-action-build-road": "^0.1.0",
+    "@civ-clone/base-unit-action-build-route": "^0.1.0",
     "@civ-clone/base-unit-action-capture-city": "^0.1.0",
     "@civ-clone/base-unit-action-clean-pollution": "^0.1.0",
     "@civ-clone/base-unit-action-clear-forest": "^0.1.0",

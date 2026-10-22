@@ -1,3 +1,4 @@
+export { Activate } from './Actions/Activate';
 export { Attack } from './Actions/Attack';
 export { Automate } from './Actions/Automate';
 export { BribeUnit } from './Actions/BribeUnit';

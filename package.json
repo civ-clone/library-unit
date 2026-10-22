@@ -28,6 +28,7 @@
   "dependencies": {
     "@civ-clone/base-player-action-active-unit": "^0.1.0",
     "@civ-clone/base-player-action-inactive-unit": "^0.1.0",
+    "@civ-clone/base-unit-action-activate": "^0.1.0",
     "@civ-clone/base-unit-action-attack": "^0.1.0",
     "@civ-clone/base-unit-action-automate": "^0.1.0",
     "@civ-clone/base-unit-action-bribe-unit": "^0.1.0",

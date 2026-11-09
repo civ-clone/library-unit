@@ -56,7 +56,7 @@
     "@civ-clone/base-unit-action-industrial-sabotage": "^0.1.0",
     "@civ-clone/base-unit-action-investigate-city": "^0.1.0",
     "@civ-clone/base-unit-action-join-city": "^0.1.0",
-    "@civ-clone/base-unit-action-meet-with-king": "^0.1.0",
+    "@civ-clone/base-unit-action-meet-with-leader": "^0.1.0",
     "@civ-clone/base-unit-action-move": "^0.1.0",
     "@civ-clone/base-unit-action-no-orders": "^0.1.0",
     "@civ-clone/base-unit-action-nuclear-attack": "^0.1.0",

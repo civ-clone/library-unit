@@ -27,6 +27,7 @@ export { IndustrialSabotage } from './Actions/IndustrialSabotage';
 export { InvestigateCity } from './Actions/InvestigateCity';
 export { JoinCity } from './Actions/JoinCity';
 export { MeetWithKing } from './Actions/MeetWithKing';
+export { MeetWithLeader } from './Actions/MeetWithLeader';
 export { Move } from './Actions/Move';
 export { NoOrders } from './Actions/NoOrders';
 export { NuclearAttack } from './Actions/NuclearAttack';

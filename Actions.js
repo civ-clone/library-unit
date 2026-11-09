@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Unload = exports.SubvertCity = exports.StealTechnology = exports.SneakStealTechnology = exports.SneakPillage = exports.SneakNuclearAttack = exports.SneakMove = exports.SneakInciteRevolt = exports.SneakCaptureCity = exports.SneakAttack = exports.Sleep = exports.SetHomeCity = exports.RoadTo = exports.RailroadTo = exports.PlantForest = exports.Pillage = exports.Overruled = exports.NuclearAttack = exports.NoOrders = exports.Move = exports.MeetWithLeader = exports.JoinCity = exports.InvestigateCity = exports.IndustrialSabotage = exports.InciteRevolt = exports.HelpBuildWonder = exports.GoTo = exports.FoundCity = exports.Fortify = exports.Explore = exports.EstablishTradeRoute = exports.EstablishEmbassy = exports.Embark = exports.Disembark = exports.Disband = exports.ClearSwamp = exports.ClearJungle = exports.ClearForest = exports.CleanPollution = exports.CaptureCity = exports.BuildRoad = exports.BuildRailroad = exports.BuildMine = exports.BuildIrrigation = exports.BribeUnit = exports.Automate = exports.Attack = exports.Activate = exports.AbortMove = void 0;
+exports.Unload = exports.SubvertCity = exports.StealTechnology = exports.SneakStealTechnology = exports.SneakPillage = exports.SneakNuclearAttack = exports.SneakMove = exports.SneakInciteRevolt = exports.SneakCaptureCity = exports.SneakAttack = exports.Sleep = exports.SetHomeCity = exports.RoadTo = exports.RailroadTo = exports.PlantForest = exports.Pillage = exports.Overruled = exports.NuclearAttack = exports.NoOrders = exports.Move = exports.MeetWithLeader = exports.MeetWithKing = exports.JoinCity = exports.InvestigateCity = exports.IndustrialSabotage = exports.InciteRevolt = exports.HelpBuildWonder = exports.GoTo = exports.FoundCity = exports.Fortify = exports.Explore = exports.EstablishTradeRoute = exports.EstablishEmbassy = exports.Embark = exports.Disembark = exports.Disband = exports.ClearSwamp = exports.ClearJungle = exports.ClearForest = exports.CleanPollution = exports.CaptureCity = exports.BuildRoad = exports.BuildRailroad = exports.BuildMine = exports.BuildIrrigation = exports.BribeUnit = exports.Automate = exports.Attack = exports.Activate = exports.AbortMove = void 0;
 var AbortMove_1 = require("./Actions/AbortMove");
 Object.defineProperty(exports, "AbortMove", { enumerable: true, get: function () { return AbortMove_1.AbortMove; } });
 var Activate_1 = require("./Actions/Activate");
@@ -57,6 +57,8 @@ var InvestigateCity_1 = require("./Actions/InvestigateCity");
 Object.defineProperty(exports, "InvestigateCity", { enumerable: true, get: function () { return InvestigateCity_1.InvestigateCity; } });
 var JoinCity_1 = require("./Actions/JoinCity");
 Object.defineProperty(exports, "JoinCity", { enumerable: true, get: function () { return JoinCity_1.JoinCity; } });
+var MeetWithKing_1 = require("./Actions/MeetWithKing");
+Object.defineProperty(exports, "MeetWithKing", { enumerable: true, get: function () { return MeetWithKing_1.MeetWithKing; } });
 var MeetWithLeader_1 = require("./Actions/MeetWithLeader");
 Object.defineProperty(exports, "MeetWithLeader", { enumerable: true, get: function () { return MeetWithLeader_1.MeetWithLeader; } });
 var Move_1 = require("./Actions/Move");
